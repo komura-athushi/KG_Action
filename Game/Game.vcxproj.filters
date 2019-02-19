@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ed0b04a6-fecd-4a2c-a462-59a8f4639f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Assets\modelData">
+      <UniqueIdentifier>{06086914-6aa4-4cad-9b07-6f9d357f04df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sprite">
+      <UniqueIdentifier>{a6ce300a-b532-440d-b914-b4661d3015ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\modelData\Theif">
+      <UniqueIdentifier>{f0683f9c-ae60-4f8e-84ea-15d8f7bd5ca5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="StageSelect.cpp" />
+    <ClCompile Include="StageKanri.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="Ugokuyuka_yoko.cpp" />
+    <ClCompile Include="Ugokuyuka_jouge.cpp" />
+    <ClCompile Include="Ugokuyuka_zengo.cpp" />
+    <ClCompile Include="Ugokuyuka_kaiten.cpp" />
+    <ClCompile Include="Ugokuyuka_yoko2.cpp" />
+    <ClCompile Include="Ugokuyuka_yoko3.cpp" />
+    <ClCompile Include="Ugokuyuka_yoko4.cpp" />
+    <ClCompile Include="Ugokuyuka_kaiten2.cpp" />
+    <ClCompile Include="Ugokuyuka_zengo2.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="Haikei.cpp" />
+    <ClCompile Include="Jumpyuka.cpp" />
+    <ClCompile Include="Jumpyuka2.cpp" />
+    <ClCompile Include="EnemyBullet.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="SphereRing.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="Meteo.cpp" />
+    <ClCompile Include="Circle2.cpp" />
+    <ClCompile Include="PlayerLife.cpp" />
+    <ClCompile Include="SphereRing_Big.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="BossLife.cpp" />
+    <ClCompile Include="Manual.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="PlayerStatus.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Credit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="StageSelect.h" />
+    <ClInclude Include="Stagekanri.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="PlayerBullet.h" />
+    <ClInclude Include="Ugokuyuka_yoko.h" />
+    <ClInclude Include="Ugokuyuka_jouge.h" />
+    <ClInclude Include="Ugokuyuka_zengo.h" />
+    <ClInclude Include="Ugokuyuka_kaiten.h" />
+    <ClInclude Include="Ugokuyuka_yoko2.h" />
+    <ClInclude Include="Ugokuyuka_yoko3.h" />
+    <ClInclude Include="Ugokuyuka_yoko4.h" />
+    <ClInclude Include="Ugokuyuka_kaiten2.h" />
+    <ClInclude Include="Ugokuyuka_zengo2.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Jumpyuka.h" />
+    <ClInclude Include="Jumpyuka2.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="SphereRing.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="Meteo.h" />
+    <ClInclude Include="Circle2.h" />
+    <ClInclude Include="PlayerLife.h" />
+    <ClInclude Include="SphereRing_Big.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="BossLife.h" />
+    <ClInclude Include="Manual.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="PlayerStatus.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Credit.h" />
+    <ClInclude Include="Haikei.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\modelData\unityChan.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Theif\Thethief_H.FBX">
+      <Filter>Assets\modelData\Theif</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Background.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\stage_00.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\stage_001.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_yoko.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_jouge.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_zengo.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_kaiten.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_yoko2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_kaiten2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_yoko3.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_yoko4.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Ugokuyuka_zengo2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Background1.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Goal.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\star.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Background2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Enemy1.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Killer1.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Killer2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Haikei.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Jumpyuka.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Jumpyuka2.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Houdai.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Background3.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Boss.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\EnemyBullet.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Sword.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\DoubleSword.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Stone.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Pyramid.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Meteo.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Heart.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\sprite\dummy.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Fade.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Title.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\GameClear.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\GameOver.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Stagepointa.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Stagepointa_clear.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\StageSelect.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Cursor_Title.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Cursor.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\HPgage.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\HPgage_b.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Heart.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\HPgage_Boss.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Manual.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Config.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Credit.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+</Project>
